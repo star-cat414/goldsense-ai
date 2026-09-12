@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Data & artifacts (do not commit raw datasets or models)
+backend/data/raw/
+backend/saved_models/*.json
+backend/saved_models/*.joblib
+backend/data/goldsense.db
+*.db
+*.sqlite
+
+# Logs and OS cruft
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
